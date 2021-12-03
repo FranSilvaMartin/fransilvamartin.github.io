@@ -7,36 +7,95 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-	
+	<link rel="icon" href="img/game.ico">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/estilos_contacto.css">
 	<title>Videojuegos - Inicio</title>
 </head>
 
 <body>
+
+	<script>
+		function AlertaEnviada() {
+		  alert("Tu formulario de contacto se ha enviado correctamente. Un staff se pondrá en contacto con un usted en un plazo de 24 horas");
+		}
+	</script>
+
 	<nav id="menu">
 		<a href="index.html">Inicio</a>
 		<a href="accion.html">Acción</a>
 		<a href="arcade.html">Arcade</a>
 		<a href="deportivo.html">Deportivo</a>
 		<a href="estrategia.html">Estrategia</a>
-		<a href="simulacion.html">Simulacion</a>
+		<a href="simulacion.html">Simulación</a>
 		<a href="terror.html">Terror</a>
 	</nav>
 	<div class="lineheader"></div>
+	
+	<div class="container">
+		
+			<form class="contacto">
+				<div class="tituloForm"><label class="tituloForm">FORMULARIO DE CONTACTO</label></div>
+				<div><label>Nombre completo:</label><input type='text' value='' pattern="[A-ZñÑ][a-zñ]*(\s[A-ZñÑ][a-zñ]*)?"></div>
+				<div><label>Correo electrónico:</label><input type='text' value='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></div>
+				<div><label>Asunto:</label><input type='text' value=''></div>
+				<div><label>Describe tu problema:</label><textarea rows='6' class="textoDescripcion"></textarea></div>
+				<div><input type='submit' value='Enviar Mensaje' onclick="AlertaEnviada()" class="Enviar"></div>
+			</form>
 
-	<div class="titulo" id="volver">
-		<p>Videojuegos</p>
-	</div>
+			<table>
+				<tr>
+					<th colspan="6" id="horario">DESCUENTOS DE VIDEOJUEGOS</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miercoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+				<tr>
+					<td id="horas">08:00</td>
+					<td id="bbdd" rowspan="2">5% Terror</td>
+					<td id="sist">20% Arcade</td>
+					<td id="fol" rowspan="2">N/A</td>
+					<td id="bbdd" rowspan="2">15% Deportivo</td>
+					<td id="prog" rowspan="3">60% Estrategia</td>
+				</tr>
+				<tr>
+					<td id="horas">10:00</td>
+					<td id="prog" rowspan="2">50% Acción</td>
+				
+				</tr>
+				<tr>
+					<td id="horas">12:00</td>
+					<td id="fol">N/A</td>
+					<td id="bbdd">N/A</td>
+					<td id="sist">N/A</td>
+		
+				</tr>
+				<tr>
+					<td id="horas">14:00</td>
+					<td id="prog" rowspan="3">N/A</td>
+					<td id="eedd">N/A</td>
+					<td id="bbdd">30% Estrategia</td>
+					<td id="sist">25% Simulación</td>
+					<td id="sist" rowspan="3">N/A</td>
+				</tr>
+				<tr>
+					<td id="horas">17:00</td>
+					
+					<td id="llmm" rowspan="2">N/A</td>
+					<td id="llmm" rowspan="2">15% Terror</td>
+					<td id="eedd" rowspan="2">10% Deportivo</td>
+					
+				</tr>
+				<tr>
+					<td id="horas">19:00</td>
+				</tr>
+			</table>
 
-	<div class="test">
-		<form class='contacto'>
-			<div><label>Tu Nombre:</label><input type='text' value=''></div>
-			<div><label>Tu Email:</label><input type='text' value=''></div>
-			<div><label>Asunto:</label><input type='text' value=''></div>
-			<div><label>Mensaje:</label><textarea rows='6'></textarea></div>
-			<div><input type='submit' value='Envia Mensaje'></div>
-		</form>
 	</div>
 
 </body>

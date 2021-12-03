@@ -10,12 +10,13 @@ html {
 .imagenes {
 	display: flex;
 	flex-wrap: wrap;
+	margin-right: 5%;
 }
 
 .imagenes img {
 	align-items: center;
 	justify-content: center;
-	width: 190px;
+	width: 200px;
 	padding: 5px;
 }
 
@@ -84,4 +85,46 @@ a {
 .botonVolver {
 	margin-top: 1%;
 	margin-left: 90%;
+}
+
+@media screen and (max-width: 1920px) {
+	.imagenesInfo {
+		padding-top: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: left;
+		justify-content: left;
+	}
+	
+	.imagenesInfo img {
+		align-items: left;
+		justify-content: left;
+		width: 450px;
+		padding: 5px;
+	}
+	
+	.juegoTitulo {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		justify-content: left;
+		height: calc(30vh - 100px);
+		padding-top: 2%;
+		margin-left: 15%;
+	}
+	
+	.juegoTitulo h1 {
+		font-size: 25px;
+	}
+	
+	.juegoTitulo p {
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #113CFC;
+	}
+	
+	.botonVolver {
+		margin-top: 1%;
+		margin-left: 80%;
+	}
 }
