@@ -4,24 +4,32 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link rel="icon" href="img/game.ico">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/estilos_index.css">
+	<link rel="stylesheet" href="css/header.css">
+	<script src="js/app.js" defer></script>
 	<title>Videojuegos - Inicio</title>
 </head>
 
 <body>
-	<nav id="menu">
-		<a href="accion.html">Acción</a>
-		<a href="arcade.html">Arcade</a>
-		<a href="deportivo.html">Deportivo</a>
-		<a href="estrategia.html">Estrategia</a>
-		<a href="simulacion.html">Simulación</a>
-		<a href="terror.html">Terror</a>
-		<a href="contacto.html">Contacto</a>
+	<nav class="menu">
+		<label class="logo">Videojuegos</label>
+		<ul class="menu_items">
+			<li class="active"><a href="#">Inicio</a></li>
+			<li><a href="accion.html">Acción</a></li>
+			<li><a href="arcade.html">Arcade</a></li>
+			<li><a href="deportivo.html">Deportivo</a></li>
+			<li><a href="estrategia.html">Estrategia</a></li>
+			<li><a href="simulacion.html">Simulación</a></li>
+			<li><a href="terror.html">Terror</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+		<span class="btn_menu">
+			<i class="fa fa-bars"></i>
+		</span>
 	</nav>
 	<div class="lineheader"></div>
 
@@ -50,5 +58,6 @@
 
 		</div>
 	</div>
+
 </body>
 </html>
