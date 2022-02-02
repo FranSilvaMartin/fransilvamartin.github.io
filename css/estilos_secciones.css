@@ -75,6 +75,23 @@ a {
 	margin-left: 90%;
 }
 
+@media screen and (max-width: 952px) {
+	.imagenesInfo {
+		padding-top: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: left;
+		justify-content: left;
+	}
+	
+	.imagenesInfo img {
+		align-items: left;
+		justify-content: left;
+		width: 450px;
+		padding: 5px;
+	}
+}
+
 @media screen and (max-width: 1920px) {
 	.imagenesInfo {
 		padding-top: 2%;
