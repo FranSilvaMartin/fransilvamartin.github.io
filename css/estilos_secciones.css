@@ -19,6 +19,14 @@
 	justify-content: left;
 }
 
+.btn_modoOscuro {
+    margin-top: 3px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 .imagenesInfo img {
 	align-items: left;
 	justify-content: left;

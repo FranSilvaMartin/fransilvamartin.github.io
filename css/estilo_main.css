@@ -31,7 +31,7 @@ body {
 .menu_items {
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
 .menu_items li {
@@ -60,6 +60,14 @@ body {
     color: #fff;
     cursor: pointer;
     display: none; 
+}
+
+.btn_modoOscuro {
+    margin-top: 3px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 ul.show {
