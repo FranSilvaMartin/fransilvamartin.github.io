@@ -62,6 +62,12 @@ body {
     display: none; 
 }
 
+.btn_modoOscuro {
+    padding-top: 2px;
+    padding-left: 5px;
+    font-size: 28px;
+}
+
 ul.show {
     top: 65px;
 }
