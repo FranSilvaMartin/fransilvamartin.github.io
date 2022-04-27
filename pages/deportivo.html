@@ -12,21 +12,22 @@
 	<link rel="stylesheet" href="css/estilos_secciones.css">
 	<script src="js/app.js"></script>
 	<script src="js/modoOscuro.js" defer></script>
+	<script src="js/hoover.js" defer></script>
 	<title>Videojuegos - Deportivo</title>
-	<link rel="icon" href="img/game.ico">
+	<link rel="icon" href="assets/game.ico">
 </head>
 <body>
 	<nav class="menu">
 		<label class="logo">Videojuegos</label>
 		<ul class="menu_items">
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="accion.html">Acción</a></li>
-			<li><a href="arcade.html">Arcade</a></li>
-			<li class="active"><a href="#">Deportivo</a></li>
-			<li><a href="estrategia.html">Estrategia</a></li>
-			<li><a href="simulacion.html">Simulación</a></li>
-			<li><a href="terror.html">Terror</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="../index.html" id="enlace" onmouseenter="colorAmarillo('enlace')" onmouseleave="colorBlanco('enlace')">Inicio</a></li>
+			<li><a href="/pages/accion.html" id="enlace1" onmouseenter="colorAmarillo('enlace1')" onmouseleave="colorBlanco('enlace1')">Acción</a></li>
+			<li><a href="/pages/arcade.html" id="enlace2" onmouseenter="colorAmarillo('enlace2')" onmouseleave="colorBlanco('enlace2')">Arcade</a></li>
+			<li class="active"><a href="#" id="enlace3" onmouseenter="colorAmarillo('enlace3')" onmouseleave="colorBlanco('enlace3')">Deportivo</a></li>
+			<li><a href="/pages/estrategia.html" id="enlace4" onmouseenter="colorAmarillo('enlace4')" onmouseleave="colorBlanco('enlace4')">Estrategia</a></li>
+			<li><a href="/pages/simulacion.html" id="enlace5" onmouseenter="colorAmarillo('enlace5')" onmouseleave="colorBlanco('enlace5')">Simulación</a></li>
+			<li><a href="/pages/terror.html" id="enlace6" onmouseenter="colorAmarillo('enlace6')" onmouseleave="colorBlanco('enlace6')">Terror</a></li>
+			<li><a href="/pages/contacto.html" id="enlace7" onmouseenter="colorAmarillo('enlace7')" onmouseleave="colorBlanco('enlace7')">Contacto</a></li>
 			<span class="btn_modoOscuro">
 				<i id="botonModoOscuro" class="fas fa-toggle-off" onclick="modoOscuro()"></i>
 			</span>
@@ -42,12 +43,12 @@
 	</div>
 	<div class="container">
 		<div class="imagenes">
-			<a href="#fifa22"><img src="img/deportivo/imgGlobal/fifa22.png" alt=""></a>
-			<a href="#nba"><img src="img/deportivo/imgGlobal/NBA2K22.jpg" alt=""></a>
-			<a href="#pga"><img src="img/deportivo/imgGlobal/PGATOUR21.jpg" alt=""></a>
-			<a href="#tennis"><img src="img/deportivo/imgGlobal/TennisWorldTour2.jpg" alt=""></a>
-			<a href="#skate"><img src="img/deportivo/imgGlobal/tony-hawk-pro-skater-2.jpg" alt=""></a>
-			<a href="#wwe"><img src="img/deportivo/imgGlobal/WWE2K22.jpg" alt=""></a>
+			<a href="#fifa22"><img src="assets/deportivo/imgGlobal/fifa22.png" alt=""></a>
+			<a href="#nba"><img src="assets/deportivo/imgGlobal/NBA2K22.jpg" alt=""></a>
+			<a href="#pga"><img src="assets/deportivo/imgGlobal/PGATOUR21.jpg" alt=""></a>
+			<a href="#tennis"><img src="assets/deportivo/imgGlobal/TennisWorldTour2.jpg" alt=""></a>
+			<a href="#skate"><img src="assets/deportivo/imgGlobal/tony-hawk-pro-skater-2.jpg" alt=""></a>
+			<a href="#wwe"><img src="assets/deportivo/imgGlobal/WWE2K22.jpg" alt=""></a>
 		</div>
 	</div><br/><br>
 	<div class="juegoTitulo">
@@ -69,9 +70,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="img/deportivo/fifa22/fifa1.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="img/deportivo/fifa22/fifa2.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="img/deportivo/fifa22/fifa3.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="assets/deportivo/fifa22/fifa1.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="assets/deportivo/fifa22/fifa2.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/fifa/fifa-22" target="_blank" class="bordeIMG"><img src="assets/deportivo/fifa22/fifa3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -92,9 +93,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="img/deportivo/nba/nba2.jpg" alt=""></a>
-			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="img/deportivo/nba/nba1.png" alt=""></a>
-			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="img/deportivo/nba/nba3.jpg" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="assets/deportivo/nba/nba2.jpg" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="assets/deportivo/nba/nba1.png" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP1001-CUSA28235_00-NBA2K22000000000" target="_blank" class="bordeIMG"><img src="assets/deportivo/nba/nba3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -121,9 +122,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="img/deportivo/PGATOUR21/pga1.jpeg" alt=""></a>
-			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="img/deportivo/PGATOUR21/pga2.jpg" alt=""></a>
-			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="img/deportivo/PGATOUR21/pga3.jpeg" alt=""></a>
+			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="assets/deportivo/PGATOUR21/pga1.jpeg" alt=""></a>
+			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="assets/deportivo/PGATOUR21/pga2.jpg" alt=""></a>
+			<a href="https://www.game.es/pga-tour-2k21-playstation-4-180507" target="_blank" class="bordeIMG"><img src="assets/deportivo/PGATOUR21/pga3.jpeg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -138,9 +139,9 @@
 			Plataformas: Xbox Series X y Series S, PlayStation 4, Microsoft Windows, Xbox One, Nintendo Switch, PlayStation 5
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="img/deportivo/tennis/tennis2.jpg" alt=""></a>
-			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="img/deportivo/tennis/tennis1.jpg" alt=""></a>
-			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="img/deportivo/tennis/tennis3.jpg" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="assets/deportivo/tennis/tennis2.jpg" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="assets/deportivo/tennis/tennis1.jpg" alt=""></a>
+			<a href="https://store.playstation.com/es-es/product/EP4008-CUSA23445_00-TWT2SIEE00000000/" target="_blank" class="bordeIMG"><img src="assets/deportivo/tennis/tennis3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 		
@@ -164,9 +165,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="img/deportivo/skater/skate1.jpeg" alt=""></a>
-			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="img/deportivo/skater/skate2.jpg" alt=""></a>
-			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="img/deportivo/skater/skate3.jpg" alt=""></a>
+			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="assets/deportivo/skater/skate1.jpeg" alt=""></a>
+			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="assets/deportivo/skater/skate2.jpg" alt=""></a>
+			<a href="https://www.epicgames.com/store/es-ES/p/tony-hawks-pro-skater-1-and-2" target="_blank" class="bordeIMG"><img src="assets/deportivo/skater/skate3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -186,9 +187,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="img/deportivo/wwe/wwe1.jpg" alt=""></a>
-			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="img/deportivo/wwe/wwe3.jpg" alt=""></a>
-			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="img/deportivo/wwe/wwe2.jpg" alt=""></a>
+			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="assets/deportivo/wwe/wwe1.jpg" alt=""></a>
+			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="assets/deportivo/wwe/wwe3.jpg" alt=""></a>
+			<a href="https://wwe.2k.com/es-ES/" target="_blank" class="bordeIMG"><img src="assets/deportivo/wwe/wwe2.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 

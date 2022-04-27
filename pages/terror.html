@@ -12,21 +12,22 @@
 	<link rel="stylesheet" href="css/estilos_secciones.css">
 	<script src="js/app.js"></script>
 	<script src="js/modoOscuro.js" defer></script>
+	<script src="js/hoover.js" defer></script>
 	<title>Videojuegos - Terror</title>
-	<link rel="icon" href="img/game.ico">
+	<link rel="icon" href="assets/game.ico">
 </head>
 <body>
 	<nav class="menu">
 		<label class="logo">Videojuegos</label>
 		<ul class="menu_items">
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="accion.html">Acción</a></li>
-			<li><a href="arcade.html">Arcade</a></li>
-			<li><a href="deportivo.html">Deportivo</a></li>
-			<li><a href="estrategia.html">Estrategia</a></li>
-			<li><a href="simulacion.html">Simulación</a></li>
-			<li class="active"><a href="#">Terror</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="../index.html" id="enlace" onmouseenter="colorAmarillo('enlace')" onmouseleave="colorBlanco('enlace')">Inicio</a></li>
+			<li><a href="/pages/accion.html" id="enlace1" onmouseenter="colorAmarillo('enlace1')" onmouseleave="colorBlanco('enlace1')">Acción</a></li>
+			<li><a href="/pages/arcade.html" id="enlace2" onmouseenter="colorAmarillo('enlace2')" onmouseleave="colorBlanco('enlace2')">Arcade</a></li>
+			<li><a href="/pages/deportivo.html" id="enlace3" onmouseenter="colorAmarillo('enlace3')" onmouseleave="colorBlanco('enlace3')">Deportivo</a></li>
+			<li><a href="/pages/estrategia.html" id="enlace4" onmouseenter="colorAmarillo('enlace4')" onmouseleave="colorBlanco('enlace4')">Estrategia</a></li>
+			<li><a href="/pages/simulacion.html" id="enlace5" onmouseenter="colorAmarillo('enlace5')" onmouseleave="colorBlanco('enlace5')">Simulación</a></li>
+			<li class="active"><a href="#" id="enlace6" onmouseenter="colorAmarillo('enlace6')" onmouseleave="colorBlanco('enlace6')">Terror</a></li>
+			<li><a href="/pages/contacto.html" id="enlace7" onmouseenter="colorAmarillo('enlace7')" onmouseleave="colorBlanco('enlace7')">Contacto</a></li>
 			<span class="btn_modoOscuro">
 				<i id="botonModoOscuro" class="fas fa-toggle-off" onclick="modoOscuro()"></i>
 			</span>
@@ -43,12 +44,12 @@
 	
 	<div class="container">
 		<div class="imagenes">
-			<a href="#five"><img src="img/terror/imgGlobal/FiveNightsatFreddy4.png" alt=""></a>
-			<a href="#outlast"><img src="img/terror/imgGlobal/outlast2.jpg" alt=""></a>
-			<a href="#phas"><img src="img/terror/imgGlobal/Phasmophobia.jpg" alt=""></a>
-			<a href="#poppy"><img src="img/terror/imgGlobal/PoppyPlaytime.jpg" alt=""></a>
-			<a href="#visage"><img src="img/terror/imgGlobal/visage.jpg" alt=""></a>
-			<a href="#slenderman"><img src="img/terror/imgGlobal/slederman.jpg" alt=""></a>
+			<a href="#five"><img src="assets/terror/imgGlobal/FiveNightsatFreddy4.png" alt=""></a>
+			<a href="#outlast"><img src="assets/terror/imgGlobal/outlast2.jpg" alt=""></a>
+			<a href="#phas"><img src="assets/terror/imgGlobal/Phasmophobia.jpg" alt=""></a>
+			<a href="#poppy"><img src="assets/terror/imgGlobal/PoppyPlaytime.jpg" alt=""></a>
+			<a href="#visage"><img src="assets/terror/imgGlobal/visage.jpg" alt=""></a>
+			<a href="#slenderman"><img src="assets/terror/imgGlobal/slederman.jpg" alt=""></a>
 		</div>
 	</div><br/><br>
 	<div class="juegoTitulo">
@@ -74,9 +75,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/terror/FiveNightsAtFreddy4/freddy1.png" alt=""></a>
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/terror/FiveNightsAtFreddy4/freddy2.png" alt=""></a>
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/terror/FiveNightsAtFreddy4/freddy3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/terror/FiveNightsAtFreddy4/freddy1.png" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/terror/FiveNightsAtFreddy4/freddy2.png" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/terror/FiveNightsAtFreddy4/freddy3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -100,9 +101,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/terror/Outlast2/ou1.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/terror/Outlast2/ou2.png" alt=""></a>
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/terror/Outlast2/ou3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/terror/Outlast2/ou1.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/terror/Outlast2/ou2.png" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/terror/Outlast2/ou3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -123,9 +124,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/terror/Phasmophobia/phas1.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/terror/Phasmophobia/phas2.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/terror/Phasmophobia/phas3.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/terror/Phasmophobia/phas1.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/terror/Phasmophobia/phas2.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/terror/Phasmophobia/phas3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -143,9 +144,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/terror/PoppyPlaytime/poppy1.jpg" alt=""></a>
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/terror/PoppyPlaytime/poppy2.jpg" alt=""></a>
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/terror/PoppyPlaytime/poppy3.jpg" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/terror/PoppyPlaytime/poppy1.jpg" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/terror/PoppyPlaytime/poppy2.jpg" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/terror/PoppyPlaytime/poppy3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 		
@@ -165,9 +166,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/terror/Visage/vi1.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/terror/Visage/vi2.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/terror/Visage/vi3.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/terror/Visage/vi1.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/terror/Visage/vi2.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/terror/Visage/vi3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -190,9 +191,9 @@
 			conjuntamente por Parsec Productions y Blue Isle Studios.
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/terror/Slerman/slenderman1.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/terror/Slerman/slenderman3.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/terror/Slerman/slenderman2.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/terror/Slerman/slenderman1.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/terror/Slerman/slenderman3.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/terror/Slerman/slenderman2.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 

@@ -8,11 +8,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-	<link rel="icon" href="img/game.ico">
+	<link rel="icon" href="assets/game.ico">
 	<link rel="stylesheet" href="css/estilos_index.css">
 	<link rel="stylesheet" href="css/estilo_main.css">
 	<script src="js/app.js" defer></script>
 	<script src="js/modoOscuro.js" defer></script>
+	<script src="js/hoover.js" defer></script>
 	<title>Videojuegos - Inicio</title>
 </head>
 
@@ -20,14 +21,14 @@
 	<nav class="menu">
 		<label class="logo">Videojuegos</label>
 		<ul class="menu_items">
-			<li class="active"><a href="#">Inicio</a></li>
-			<li><a href="accion.html">Acción</a></li>
-			<li><a href="arcade.html">Arcade</a></li>
-			<li><a href="deportivo.html">Deportivo</a></li>
-			<li><a href="estrategia.html">Estrategia</a></li>
-			<li><a href="simulacion.html">Simulación</a></li>
-			<li><a href="terror.html">Terror</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li class="active"><a href="#" id="enlace" onmouseenter="colorAmarillo('enlace')" onmouseleave="colorBlanco('enlace')">Inicio</a></li>
+			<li><a href="accion.html" id="enlace1" onmouseenter="colorAmarillo('enlace1')" onmouseleave="colorBlanco('enlace1')">Acción</a></li>
+			<li><a href="arcade.html" id="enlace2" onmouseenter="colorAmarillo('enlace2')" onmouseleave="colorBlanco('enlace2')">Arcade</a></li>
+			<li><a href="deportivo.html" id="enlace3" onmouseenter="colorAmarillo('enlace3')" onmouseleave="colorBlanco('enlace3')">Deportivo</a></li>
+			<li><a href="estrategia.html" id="enlace4" onmouseenter="colorAmarillo('enlace4')" onmouseleave="colorBlanco('enlace4')">Estrategia</a></li>
+			<li><a href="simulacion.html" id="enlace5" onmouseenter="colorAmarillo('enlace5')" onmouseleave="colorBlanco('enlace5')">Simulación</a></li>
+			<li><a href="terror.html" id="enlace6" onmouseenter="colorAmarillo('enlace6')" onmouseleave="colorBlanco('enlace6')">Terror</a></li>
+			<li><a href="contacto.html" id="enlace7" onmouseenter="colorAmarillo('enlace7')" onmouseleave="colorBlanco('enlace7')">Contacto</a></li>
 			<span class="btn_modoOscuro">
 				<i id="botonModoOscuro" class="fas fa-toggle-off" onclick="modoOscuro()"></i>
 			</span>
@@ -45,9 +46,9 @@
 
 	<div class="container">
 		<div class="imagenes">
-			<img src="img/index/fifa.jpg" alt="">
-			<img src="img/index/minecraft.jpg" alt="">
-			<img src="img/index/forza.jpg" alt="">
+			<img src="assets/index/fifa.jpg" alt="">
+			<img src="assets/index/minecraft.jpg" alt="">
+			<img src="assets/index/forza.jpg" alt="">
 		</div>
 		<div class="text">
 			<div class="pregunta">

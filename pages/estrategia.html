@@ -12,21 +12,22 @@
 	<link rel="stylesheet" href="css/estilos_secciones.css">
 	<script src="js/app.js"></script>
 	<script src="js/modoOscuro.js" defer></script>
+	<script src="js/hoover.js" defer></script>
 	<title>Videojuegos - Estrategia</title>
-	<link rel="icon" href="img/game.ico">
+	<link rel="icon" href="assets/game.ico">
 </head>
 <body>
 	<nav class="menu">
 		<label class="logo">Videojuegos</label>
 		<ul class="menu_items">
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="accion.html">Acción</a></li>
-			<li><a href="arcade.html">Arcade</a></li>
-			<li><a href="deportivo.html">Deportivo</a></li>
-			<li class="active"><a href="#">Estrategia</a></li>
-			<li><a href="simulacion.html">Simulación</a></li>
-			<li><a href="terror.html">Terror</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="../index.html" id="enlace" onmouseenter="colorAmarillo('enlace')" onmouseleave="colorBlanco('enlace')">Inicio</a></li>
+			<li><a href="/pages/accion.html" id="enlace1" onmouseenter="colorAmarillo('enlace1')" onmouseleave="colorBlanco('enlace1')">Acción</a></li>
+			<li><a href="/pages/arcade.html" id="enlace2" onmouseenter="colorAmarillo('enlace2')" onmouseleave="colorBlanco('enlace2')">Arcade</a></li>
+			<li><a href="/pages/deportivo.html" id="enlace3" onmouseenter="colorAmarillo('enlace3')" onmouseleave="colorBlanco('enlace3')">Deportivo</a></li>
+			<li class="active"><a href="#" id="enlace4" onmouseenter="colorAmarillo('enlace4')" onmouseleave="colorBlanco('enlace4')">Estrategia</a></li>
+			<li><a href="/pages/simulacion.html" id="enlace5" onmouseenter="colorAmarillo('enlace5')" onmouseleave="colorBlanco('enlace5')">Simulación</a></li>
+			<li><a href="/pages/terror.html" id="enlace6" onmouseenter="colorAmarillo('enlace6')" onmouseleave="colorBlanco('enlace6')">Terror</a></li>
+			<li><a href="/pages/contacto.html" id="enlace7" onmouseenter="colorAmarillo('enlace7')" onmouseleave="colorBlanco('enlace7')">Contacto</a></li>
 			<span class="btn_modoOscuro">
 				<i id="botonModoOscuro" class="fas fa-toggle-off" onclick="modoOscuro()"></i>
 			</span>
@@ -42,12 +43,12 @@
 	</div>
 	<div class="container">
 		<div class="imagenes">
-			<a href="#age"><img src="img/estrategia/imgGlobal/AgeofEmpiresIV.jpg" alt=""></a>
-			<a href="#evilgenius"><img src="img/estrategia/imgGlobal/evilgenius2.jpg" alt=""></a>
-			<a href="#gear"><img src="img/estrategia/imgGlobal/GearsTactics.jpg" alt=""></a>
-			<a href="#hearth"><img src="img/estrategia/imgGlobal/Hearthstone.jpg" alt=""></a>
-			<a href="#human"><img src="img/estrategia/imgGlobal/humankind.jpg" alt=""></a>
-			<a href="#yugioh"><img src="img/estrategia/imgGlobal/Yu-Gi-Oh.jpg" alt=""></a>
+			<a href="#age"><img src="assets/estrategia/imgGlobal/AgeofEmpiresIV.jpg" alt=""></a>
+			<a href="#evilgenius"><img src="assets/estrategia/imgGlobal/evilgenius2.jpg" alt=""></a>
+			<a href="#gear"><img src="assets/estrategia/imgGlobal/GearsTactics.jpg" alt=""></a>
+			<a href="#hearth"><img src="assets/estrategia/imgGlobal/Hearthstone.jpg" alt=""></a>
+			<a href="#human"><img src="assets/estrategia/imgGlobal/humankind.jpg" alt=""></a>
+			<a href="#yugioh"><img src="assets/estrategia/imgGlobal/Yu-Gi-Oh.jpg" alt=""></a>
 		</div>
 	</div><br/><br>
 	<div class="juegoTitulo">
@@ -71,9 +72,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="img/estrategia/AGEofEmpiresIV/age1.jpg" alt=""></a>
-			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="img/estrategia/AGEofEmpiresIV/age2.jpg" alt=""></a>
-			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="img/estrategia/AGEofEmpiresIV/age3.jpg" alt=""></a>
+			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="assets/estrategia/AGEofEmpiresIV/age1.jpg" alt=""></a>
+			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="assets/estrategia/AGEofEmpiresIV/age2.jpg" alt=""></a>
+			<a href="https://www.ageofempires.com/games/age-of-empires-iv/" target="_blank" class="bordeIMG"><img src="assets/estrategia/AGEofEmpiresIV/age3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -102,9 +103,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="img/estrategia/EvilGenius/evil1.jpeg" alt=""></a>
-			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="img/estrategia/EvilGenius/evil2.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="img/estrategia/EvilGenius/evil3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="assets/estrategia/EvilGenius/evil1.jpeg" alt=""></a>
+			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="assets/estrategia/EvilGenius/evil2.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/700600/Evil_Genius_2_World_Domination/" target="_blank" class="bordeIMG"><img src="assets/estrategia/EvilGenius/evil3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -139,9 +140,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="img/estrategia/GearsTactics/gear1.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="img/estrategia/GearsTactics/gear2.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="img/estrategia/GearsTactics/gear3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="assets/estrategia/GearsTactics/gear1.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="assets/estrategia/GearsTactics/gear2.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/1184050/Gears_Tactics/" target="_blank" class="bordeIMG"><img src="assets/estrategia/GearsTactics/gear3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -167,9 +168,9 @@
 			con nuevas cartas y mecánicas.
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="img/estrategia/Hearthstone/hear1.jpg" alt=""></a>
-			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="img/estrategia/Hearthstone/hear2.jpg" alt=""></a>
-			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="img/estrategia/Hearthstone/hear3.jpg.crdownload" alt=""></a>
+			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="assets/estrategia/Hearthstone/hear1.jpg" alt=""></a>
+			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="assets/estrategia/Hearthstone/hear2.jpg" alt=""></a>
+			<a href="https://playhearthstone.com/es-es" target="_blank" class="bordeIMG"><img src="assets/estrategia/Hearthstone/hear3.jpg.crdownload" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 		
@@ -191,9 +192,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="img/estrategia/HumanKind/human1.png" alt=""></a>
-			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="img/estrategia/HumanKind/human2.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="img/estrategia/HumanKind/human3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="assets/estrategia/HumanKind/human1.png" alt=""></a>
+			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="assets/estrategia/HumanKind/human2.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/1124300/HUMANKIND/" target="_blank" class="bordeIMG"><img src="assets/estrategia/HumanKind/human3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -218,9 +219,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="img/estrategia/YuGiOh/yu1.jpg" alt=""></a>
-			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="img/estrategia/YuGiOh/yu3.jpg" alt=""></a>
-			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="img/estrategia/YuGiOh/yu2.jpg" alt=""></a>
+			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="assets/estrategia/YuGiOh/yu1.jpg" alt=""></a>
+			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="assets/estrategia/YuGiOh/yu3.jpg" alt=""></a>
+			<a href="https://www.yugioh-card.com/es/" target="_blank" class="bordeIMG"><img src="assets/estrategia/YuGiOh/yu2.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 

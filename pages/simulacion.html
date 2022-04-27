@@ -12,21 +12,22 @@
 	<link rel="stylesheet" href="css/estilos_secciones.css">
 	<script src="js/app.js"></script>
 	<script src="js/modoOscuro.js" defer></script>
+	<script src="js/hoover.js" defer></script>
 	<title>Videojuegos - Simulación</title>
-	<link rel="icon" href="img/game.ico">
+	<link rel="icon" href="assets/game.ico">
 </head>
 <body>
 	<nav class="menu">
 		<label class="logo">Videojuegos</label>
 		<ul class="menu_items">
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="accion.html">Acción</a></li>
-			<li><a href="arcade.html">Arcade</a></li>
-			<li><a href="deportivo.html">Deportivo</a></li>
-			<li><a href="estrategia.html">Estrategia</a></li>
-			<li class="active"><a href="#">Simulación</a></li>
-			<li><a href="terror.html">Terror</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="../index.html" id="enlace" onmouseenter="colorAmarillo('enlace')" onmouseleave="colorBlanco('enlace')">Inicio</a></li>
+			<li><a href="/pages/accion.html" id="enlace1" onmouseenter="colorAmarillo('enlace1')" onmouseleave="colorBlanco('enlace1')">Acción</a></li>
+			<li><a href="/pages/arcade.html" id="enlace2" onmouseenter="colorAmarillo('enlace2')" onmouseleave="colorBlanco('enlace2')">Arcade</a></li>
+			<li><a href="/pages/deportivo.html" id="enlace3" onmouseenter="colorAmarillo('enlace3')" onmouseleave="colorBlanco('enlace3')">Deportivo</a></li>
+			<li><a href="/pages/estrategia.html" id="enlace4" onmouseenter="colorAmarillo('enlace4')" onmouseleave="colorBlanco('enlace4')">Estrategia</a></li>
+			<li class="active"><a href="#" id="enlace5" onmouseenter="colorAmarillo('enlace5')" onmouseleave="colorBlanco('enlace5')">Simulación</a></li>
+			<li><a href="/pages/terror.html" id="enlace6" onmouseenter="colorAmarillo('enlace6')" onmouseleave="colorBlanco('enlace6')">Terror</a></li>
+			<li><a href="/pages/contacto.html" id="enlace7" onmouseenter="colorAmarillo('enlace7')" onmouseleave="colorBlanco('enlace7')">Contacto</a></li>
 			<span class="btn_modoOscuro">
 				<i id="botonModoOscuro" class="fas fa-toggle-off" onclick="modoOscuro()"></i>
 			</span>
@@ -42,12 +43,12 @@
 	</div>
 	<div class="container">
 		<div class="imagenes">
-			<a href="#assetto"><img src="img/simulacion/imgGlobal/assettocorsa.jpg" alt=""></a>
-			<a href="#eurotruck"><img src="img/simulacion/imgGlobal/eurotrack.jpg" alt=""></a>
-			<a href="#f1"><img src="img/simulacion/imgGlobal/f121.jpg" alt=""></a>
-			<a href="#irancing"><img src="img/simulacion/imgGlobal/iracing.jpg" alt=""></a>
-			<a href="#forza"><img src="img/simulacion/imgGlobal/forzahorizon5.jpg" alt=""></a>
-			<a href="#flight"><img src="img/simulacion/imgGlobal/microsoftflightsimulator.jpg" alt=""></a>
+			<a href="#assetto"><img src="assets/simulacion/imgGlobal/assettocorsa.jpg" alt=""></a>
+			<a href="#eurotruck"><img src="assets/simulacion/imgGlobal/eurotrack.jpg" alt=""></a>
+			<a href="#f1"><img src="assets/simulacion/imgGlobal/f121.jpg" alt=""></a>
+			<a href="#irancing"><img src="assets/simulacion/imgGlobal/iracing.jpg" alt=""></a>
+			<a href="#forza"><img src="assets/simulacion/imgGlobal/forzahorizon5.jpg" alt=""></a>
+			<a href="#flight"><img src="assets/simulacion/imgGlobal/microsoftflightsimulator.jpg" alt=""></a>
 		</div>
 	</div><br/><br>
 	<div class="juegoTitulo">
@@ -72,9 +73,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/simulacion/AssettoCorsa/asseto1.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/simulacion/AssettoCorsa/asseto2.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="img/simulacion/AssettoCorsa/asseto3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/simulacion/AssettoCorsa/asseto1.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/simulacion/AssettoCorsa/asseto2.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/" target="_blank" class="bordeIMG"><img src="assets/simulacion/AssettoCorsa/asseto3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -103,9 +104,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/simulacion/EuroTruck/euro1.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/simulacion/EuroTruck/euro2.jpg" alt=""></a>
-			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="img/simulacion/EuroTruck/euro3.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/simulacion/EuroTruck/euro1.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/simulacion/EuroTruck/euro2.jpg" alt=""></a>
+			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank" class="bordeIMG"><img src="assets/simulacion/EuroTruck/euro3.jpg" alt=""></a>
 		</div>
 
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
@@ -140,9 +141,9 @@
 		</span>
 
 		<div class="imagenesInfo">
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/simulacion/F1/f11.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/simulacion/F1/f13.jpg" alt=""></a>
-			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="img/simulacion/F1/f12.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/simulacion/F1/f11.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/simulacion/F1/f13.jpg" alt=""></a>
+			<a href="https://www.ea.com/es-es/games/f1/f1-2021" target="_blank" class="bordeIMG"><img src="assets/simulacion/F1/f12.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -168,9 +169,9 @@
 			con nuevas cartas y mecánicas.
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/simulacion/IRancing/ira1.png" alt=""></a>
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/simulacion/IRancing/ira3.jpg" alt=""></a>
-			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="img/simulacion/IRancing/ira2.jpg" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/simulacion/IRancing/ira1.png" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/simulacion/IRancing/ira3.jpg" alt=""></a>
+			<a href="https://www.iracing.com/" target="_blank" class="bordeIMG"><img src="assets/simulacion/IRancing/ira2.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 		
@@ -192,9 +193,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/simulacion/ForzaHorizon/forza2.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/simulacion/ForzaHorizon/forza3.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="img/simulacion/ForzaHorizon/forza1.jpeg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/simulacion/ForzaHorizon/forza2.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/simulacion/ForzaHorizon/forza3.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/forza-horizon-5" target="_blank" class="bordeIMG"><img src="assets/simulacion/ForzaHorizon/forza1.jpeg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
@@ -214,9 +215,9 @@
 
 		</span>
 		<div class="imagenesInfo">
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/simulacion/FlightSimulator/flight1.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/simulacion/FlightSimulator/flight2.jpg" alt=""></a>
-			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="img/simulacion/FlightSimulator/flight3.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/simulacion/FlightSimulator/flight1.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/simulacion/FlightSimulator/flight2.jpg" alt=""></a>
+			<a href="https://www.xbox.com/es-ES/games/microsoft-flight-simulator" target="_blank" class="bordeIMG"><img src="assets/simulacion/FlightSimulator/flight3.jpg" alt=""></a>
 		</div>
 		<a href="#volver" class="textoTitulo"><h3 class="botonVolver">Volver</h3></a><br/><br/>
 
