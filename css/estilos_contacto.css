@@ -22,8 +22,7 @@
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 45px;
-    color: #798e94;
-    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    background-color: beige;
 }
 
 .contacto label{
@@ -37,7 +36,7 @@
 .contacto .tituloForm {
     margin-bottom: 10%;
     font-size: 20px;
-    color: #113CFC;
+    color: #0e9bff;
     text-align: center;
     align-items: center;
     align-content: center;
