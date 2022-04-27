@@ -68,6 +68,10 @@ body {
     font-size: 28px;
 }
 
+a.textoTitulo {
+    margin-right: 16%;
+}
+
 ul.show {
     top: 65px;
 }
